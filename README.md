@@ -8,7 +8,7 @@ Sentelle, Christopher, Anagnostopoulos, Georgios C., Georgiopoulos, Michael, "A 
 
 The regularization path following algorithm explores all solutions to the SVM problem at all values of the parameter, $C$. 
 The problem is first reposed to use $\lambda$ instead of $C$ where $\lambda = \frac{1}{C}$. The algorithm starts at a 
-large value of $\lambda$ (small value of $C$) where the it is found that the solution essentially does not change with
+large value of $\lambda$ (small value of $C$) where the solution essentially does not change with
 any larger value (the set of support vectors does not change). From there, the algorithm finds the next value of $\lambda$ 
 smaller than the current value where the set of support vectors change. This is referred to as a "breakpoint". At the
 breakpoint, the active set (set of support vectors) are changed and the process continues until reaching the pre-specified
